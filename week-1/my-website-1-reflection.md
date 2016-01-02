@@ -1,18 +1,18 @@
 ###Paste a link to your [USERNAME].github.io repository.
-  http://www.mikelondon.github.io
-##Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+  mikelondon.github.io
+####Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
   -Login to your GitHub Account at http://www.github.com, once you log in click on the button  +New Repository. In the repository box, choose a name for the Repo.  You can choose to initialize the Repo with a Readme. In the drop down menu called Add a license: pick MIT. This is the most open of the licensure allowing a lot of room to work with.  Scroll down to the bottom of the page and click Create Repository. Once the Repository is made open up the Terminal Prompt if you are running Mac or PowerShell if you are running Windows.  Make sure git is installed on your computer.  In the terminal from navigate to the directory you would like to install your repo to. Once you are in the directory of you're choosing, type git clone <URL>. Navigate back to GitHub and select the Box beginning with https://in the middle of the screen. Make sure all of the text is highlighted. Copy the URL and navigate back to the Terminal Prompt. Paste the URL you copied from GitHub over the <URL> you typed after git clone. Hit the return Key and a new directory will be formed in the path you have chosen. You have now successfully created and cloned a repository to your local computer. Great Job!
 
-###Describe what open source means.
+####Describe what open source means.
   -Open-Source is the use of software for free between individuals.  The source code must be included. The code the computer reads as well as the notes or text the human can read are both provided and given access to via the internet. Private companies only provide software with the information computers can decipher. A truly open-source program is free of charge and provides the code backing the program.
 
-###What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+####What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
   -I think Open-Source is a great tool for not only learning how programming works, but it is a great way to work with others and create some products that may turn into some for profit or may be the formation of a company. Since I am in the beginning of my development career I believe that Open-Source is a good thing as it allows me to collaborate with others and learn in a programming environment. I do not believe it feels like a utopia because not everything is perfect. Yes, some programs may feel complete, but there is always something you can change. Nothing is perfect even in the Programming world.
 
-###Assess the importance of using licenses.
+####Assess the importance of using licenses.
   -Licenses are important to all development Open-Source included, as it shows if you are to give credit to the original developer. "They allow software to be freely used, modified, and shared." This is important to the development world because if we were not allowed to share and modify code we would be unable to utilize tools such as GitHub. They allow others to help you which is important because you can receive and implement feedback.
 
-###What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+####What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
   -I think I struggled so much on the previous challenge that by the time I go to this one, I had a moment of This is straight-forward I can do this. I would consider that an aha moment. The one thing I forgot to do when I first created it was make a feature-branch. I think I went to far ahead and didn't read the directions all the way because I was so excited I knew how to do something.
-###Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+####Did you find any resources on your own that helped you better understand a topic? If so, please list it.
   -I did not do any research on the section because I felt I had a wealth of knowledge from the previous challenge. I should have done some bonus research but I did not feel it was necessary.
