@@ -1,0 +1,24 @@
+#1.1 Think About Time
+There were three time-management / productivity skills I found interesting. The first was the meditation app called Headspace. I never really thought about meditating before to calm my mind or gather my thoughts, however I actually participated in the first two exercises and I feel completely changed.  I am able to keep my focus longer etc. The next two strategies I found interesting were quite similar, Dr. Foggs, tiny habits, and the ways to create a habit through reward.
+
+Time-boxing is the allotting of time to an activity without the need to finish the activity in that time frame. One way of time-boxing is through the Pomodoro technique which splits work into 25 minute periods followed by a break to recap or cover what was discussed.  This will definitely be useful to me because something I am guilty of when learning is to never take a break. I then feel overwhelmed and lose my train of thought. My skills in time management are definitely lacking but I know that building blocks to better time management skills include these techniques discussed above.
+
+I plan / have already started to use the headspace app towards meditation. After only two sessions my focus and determination seems to be fine tuned and I am excited to learn much more in DBC.  As far as a plan of use, I will definitely try to utilize my new knowledge of tiny habits to make my everyday more productive, as well as meditating everyday to clear my mind and get ready for the next day.
+##1.2 The Command Line
+The shell is the interactive interface in which the user enters a multitude of commands inside of command prompt or terminal. It is the most powerful tool on the computer.
+Bash is the unix language (Linux Mac) used inside of the shell.  The most challenging piece for me was in the DBC lecture how the instructor kept using commands before explaining what they do. This is challenging to me because I am getting my self accustomed to the different style of teaching I was used to in College. For the most part I played around with most if not all of the commands inside Terminal. It was an experience or connection I had not felt before with my computer. I felt like I was in complete control of the computer. The most important feature or commands to me would be the pipes ( | | ) and rm command. The pipes are a powerful took used in chaining commands together where the rm function can wipe a directory and whole computer for that matter without an undo button. One must really know what they are doing or make sure they are doing the right thing when using the rm command. There are no second chances.
+
+pwd - this prints the working directory or folder path the user is currently located in
+ls - this lists the contents of the directory
+mv - this command followed by a file or directory will move the file to a new path at the users choosing.
+cd - this will change working directory
+../ - this will move one directory higher
+touch - this creates a new file. You must add the file extension after to associate that file type with the one you created.
+mkdir - this will create a new folder or directory in the path you are located
+less - this outputs the contents into the terminal prompt
+rmdir - this will remove the directory of your choosing that must be empty
+rm - this is a removal tool used to delete files and directories
+help - same as man on unix, this is the working manual for the system
+##1.4 Forking and Cloning
+When creating a new repo in GitHub you have the choice to Either start one fresh or take what someone has create and add your own changes to it. This is done through cloning and forking. When you have found a repo you would like to clone, you must fork it to your profile done through the button at the top of the screen. Once you have it on your profile, you can clone the repository, through the https url in the middle of the screen. Copy the url and open the directory in the terminal that you wish to clone the repository too.  you the Git command, git clone <url paste here>. hit return or enter based on the system you are using. once the cloning process has finished the directories should match the layout on your GitHub account
+I did not really struggle wit the process of setting up git and linking to GitHub as the process was very straight forward.  I thought the combination of the articles to videos i the previous section did a great job explaining the process and the background for Git and Github. One part that did confuse me was the branching video on the previous section. However I realize what confused me was the usage of commands I was not previously familiar with.
