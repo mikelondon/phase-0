@@ -1,1 +1,2 @@
-![SiteMap](/Users/mike/Desktop/DBC/phase-0/git/phase-0/week-2/imgs/site-map.png)
+<a href="imgs/site-map.png">Site-Map</a>
+![SiteMap](imgs/site-map.png)
