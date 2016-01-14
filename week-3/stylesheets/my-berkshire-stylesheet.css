@@ -99,3 +99,33 @@ footer > p:nth-child(5) {
 footer p:last-child {
     font-size: .7em;
   }
+
+  /*
+
+  In the CSS file associated with this challenge, create a commented section to write your reflection. (HINT: In Sublime, using command + / will automatically create a comment for you). Answer the following questions in that section.
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+-I think it is very important to remember to place the <link> tag inside of the <head>. It is also good to remember that the link tag is self closing.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+-The two tricks my partner and I used were creating blocks and implementing floats into the page. At first this was hard for me to grasp since I was challenged by the CSS, but my pair really helped me understand what positioning techniques to use.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+-For font size we used em's instead of pixels as We felt it was easier to comprehend size.
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+
+-We mainly used classes instead of ID's since the classes importance was stressed in the material prior to starting the challenge.
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+-Both my partner and I felt that our code looked much neater and cleaner to read. We stressed the importance of good semantic HTML and I Think it really shows when looking at the source code.
+
+
+*/
