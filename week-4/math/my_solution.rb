@@ -1,0 +1,28 @@
+# Math Methods
+
+# I worked on this challenge [by myself, with: ].
+
+
+# Your Solution Below
+
+def add(num_1, num_2)
+  num_1 + num_2
+end
+
+def subtract(num_1, num_2)
+  num_1 - num_2
+end
+
+def multiply(num_1, num_2)
+  num_1 * num_2
+end
+
+def divide(num_1, num_2)
+ num_1 / num_2
+end
+
+add(10, 2)
+subtract(5, 1)
+multiply(3, 912)
+divide(20, 5)
+
