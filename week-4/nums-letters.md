@@ -34,3 +34,8 @@ What are local variables? Why and when would you use them?
 How was this challenge? Did you get a good review of some of the basics?
   -   This challenge was a pretty straight-forward refresher to Ruby. I look forward for what's to come next.
 
+https://github.com/mikelondon/phase-0/blob/master/week-4/basic-math.rb
+
+https://github.com/mikelondon/phase-0/blob/master/week-4/defining-variables.rb
+
+https://github.com/mikelondon/phase-0/blob/master/week-4/simple-string.rb
