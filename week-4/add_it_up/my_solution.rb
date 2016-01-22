@@ -9,10 +9,13 @@
 # 0. total Pseudocode
 # make sure all pseudocode is commented out!
 
-# Input:
-# Output:
+# Input: An Array of Integers
+# Output: Sum of Array elemtns
 # Steps to solve the problem.
 
+#Create a variable to store sum of numbers.
+#Iterate over container adding each integer to the integer variable
+#return the value of the integer
 
 # 1. total initial solution
 
@@ -31,10 +34,16 @@ end
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
-# Input:
-# Output:
+# Input: An Array of Strings
+# Output: Single string combined
 # Steps to solve the problem.
+=begin
 
+  Create a variable and set it equal to an object
+  Iterate over the container and store the value to the variable
+  return the value for the object
+
+=end
 
 # 5. sentence_maker initial solution
 
