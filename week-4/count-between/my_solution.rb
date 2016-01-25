@@ -12,8 +12,25 @@
 #
 # If +array+ is empty the method should return 0
 
+=begin
+
+psuedocode
+
+not completely sure where to start.
+
+input: an array of integers, and integer lower bound, an integer upper bound.
+output: the number of integers in teh array between teh lower and upper bounds.
+
+=end
+
+
+
+
 # Your Solution Below
 
+
+#imcomplete could not complete challenge without looking up need more research into topic.
+
 def count_between(list_of_integers, lower_bound, upper_bound)
-  # Your code goes here!
+
 end
