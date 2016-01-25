@@ -18,6 +18,9 @@
 
 Pseudocode
 
+input: array of integers
+output: smallest integer
+
   Assign Variable = to smallest number
 
   Iterate over the container
@@ -29,16 +32,10 @@ Pseudocode
   Compare variable to rest of array if a number is smaller than it place it into the variable and move original back to array.
 
 
-  END
-
-
 =end
 
 
-
-
-
-=begin
+#these are a bunch of trial and errors for the challenge. Could not answer correctly, Felt I was over thinking everything.
 
 def smallest_integer(list_of_nums)
   small_num = 0
@@ -46,16 +43,17 @@ def smallest_integer(list_of_nums)
       return nil
     else
        while
-        list_of_nums.each do num
-          list_of_nums[0] < list_of_nums.length[-1]
-          small_num << list_of_nums[0]
+        list_of_nums.each do |num|
+          list_of_nums[0] < list_of_nums.length[-1] #index0 or first number smaller than the second
+          small_num << list_of_nums[0] #  cannot append to the end of a string from the array
           print small_num
          break if list_of_nums[0] < list_of_nums[1..-1]
-            end
+          end
        end
 end
 
 
+#another trial go still not correct.
 
 def smallest_integer(list_of_nums)
   small_num = 0
