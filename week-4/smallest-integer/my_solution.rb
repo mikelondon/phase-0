@@ -12,12 +12,17 @@
 
 # Your Solution Below
 
+
+
 =begin
 
 Pseudocode
+
+  Assign Variable = to smallest number
+
   Iterate over the container
 
-  IF first indexx is smaller than the second index, place into variable.
+  IF first indexx is smaller than the second index, assign that value to variable.
     ElSE First is larger than the second, push second number into variable.
   END
 
@@ -32,24 +37,50 @@ Pseudocode
 
 
 
+
+=begin
+
 def smallest_integer(list_of_nums)
-    list_of_nums.each do |num|
-     list_of_nums.uniq!
-     while
-      num in list_of_nums[0 .. -1] < #the other numbers
-      return true
+  small_num = 0
+     if list_of_nums == []
+      return nil
     else
-
-
-   end
-      p list_of_nums
+       while
+        list_of_nums.each do num
+          list_of_nums[0] < list_of_nums.length[-1]
+          small_num << list_of_nums[0]
+          print small_num
+         break if list_of_nums[0] < list_of_nums[1..-1]
+            end
+       end
 end
 
 
 
+def smallest_integer(list_of_nums)
+  small_num = 0
+    list_of_nums.each {|num| small_num < list_of_nums[-1]}
+    small_num = list_of_nums[0..-1]
+    p small_num
+    return nil if list_of_nums == []
+  end
 
 
-smallest_integer([0, -10, 10, -10])
 smallest_integer([-10, -20, -30])
-smallest_integer([-10,-20,-30])
+
+
+
+=end
+
+
+
+
+#Enumerable method
+
+
+def smallest_integer(list_of_nums)
+  p list_of_nums.min
+end
+
+
 
