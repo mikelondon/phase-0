@@ -56,25 +56,25 @@ print pad([1,2,3], 5,"red")
 =begin
 
 Were you successful in breaking the problem down into small steps?
-  -
+  -Yes I think we did a good job breaking down the steps. I think we talked about the steps outloud more than breaking them down into pseudocode.
 
 Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
-  -
+  - Yes I felt that we wrote down the extreme basics to the question in the pseudocode and talked about the other pieces to the puzzle.
 
 Was your initial solution successful at passing the tests? If so, why do you think that is?
-  -
+  - Yes, I felt that our destructive method was very clear
 
 If not, what were the errors you encountered and what did you do to resolve them?
-  -
+  - at first we failed because we used puts instead of return. We reviceived nil and realized we cannot use puts in the method.
 
 When you refactored, did you find any existing methods in Ruby to clean up your code?
   -
 
 How readable is your solution? Did you and your pair choose descriptive variable names?
-  -
+  - I think our code is pretty easy to read outside of the refactored method. Yes something my pair actually helped me with, was coming up with better variable names.
 
 What is the difference between destructive and non-destructive methods in your own words?
-  -
+  - Destructive methods permanently change something where non-destructive just alter temporarily.
 
 
 
