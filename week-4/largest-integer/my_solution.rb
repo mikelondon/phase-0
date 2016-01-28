@@ -36,8 +36,21 @@ output: returns largest integer
 
 # Your Solution Below
 
+def largest_integer(list_of_nums)
+
+  return nil if largest_integer == []
+
+  big_num = list_of_nums[0]         #set big_num variable equal to the first index in the array
+    list_of_nums.each do |num|      #iterate over the array
+      if num > big_num              #compare each element in the array to the variable big_num
+        big_num = num               # set big_num equal to the element if the num is bigger than first index
+      end
+    end
+    p big_num                       #print big num variable
+  end
 
 
+=begin
 
 #failed attempt at trying to complete challenge. Need a lot more practice and collaboration.
 
@@ -52,3 +65,5 @@ def largest_integer(list_of_nums)
           end
        end
 end
+
+=end

@@ -37,20 +37,44 @@ output: smallest integer
 
 #these are a bunch of trial and errors for the challenge. Could not answer correctly, Felt I was over thinking everything.
 
+
 def smallest_integer(list_of_nums)
-  small_num = 0
+  return nil if list_of_nums == []
+
+  small_num = list_of_nums[0]
+    list_of_nums.each do |num|
+      if num < small_num
+        small_num = num
+      end
+    end
+    p small_num
+  end
+
+#I researched this problem and I found I was close but did not need the while loop I created below
+
+
+
+=begin
+
+
+def smallest_integer(list_of_nums)
+  small_num = 0                                               #needed to set variable equal to first index
      if list_of_nums == []
       return nil
     else
        while
         list_of_nums.each do |num|
-          list_of_nums[0] < list_of_nums.length[-1] #index0 or first number smaller than the second
-          small_num << list_of_nums[0] #  cannot append to the end of a string from the array
-          print small_num
+          if
+          list_of_nums[0] < list_of_nums.length[-1]            #index0 or first number smaller than the second
+          small_num = list_of_nums[0]
+          end                                                 # cannot append to the end of a string from the array
+          p small_num
          break if list_of_nums[0] < list_of_nums[1..-1]
           end
        end
 end
+
+
 
 
 #another trial go still not correct.
@@ -68,8 +92,6 @@ smallest_integer([-10, -20, -30])
 
 
 
-=end
-
 
 
 
@@ -82,3 +104,4 @@ end
 
 
 
+=end
