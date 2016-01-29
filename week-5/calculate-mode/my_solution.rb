@@ -16,13 +16,43 @@
 # What is the output? (i.e. What should the code return?)
 # What are the steps needed to solve the problem?
 
+=begin
+
+=end
 
 # 1. Initial Solution
+def mode(array)
+  count_hash = {}
+  mode_arr = []
+  array.uniq.each do |item|
+    count_hash[item] = array.count(item)
+  end
+  max_value_arr = count_hash.max_by do |k,v|
+    v
+  end
+  max_value = max_value_arr[1]
+  count_hash.keep_if {|k,v| v == max_value}
+  count_hash.each_key{|k| mode_arr.push(k)}
 
-
-
+  return mode_arr
+end
 
 # 3. Refactored Solution
+def mode(array)
+  count_hash = {}
+  mode_arr = []
+  array.uniq.each do |item|
+    count_hash[item] = array.count(item)
+  end
+  max_value = count_hash.max_by do |k,v|
+    v
+  end
+
+  count_hash.keep_if {|k,v| v == max_value[1]}
+  count_hash.each_key{|k| mode_arr.push(k)}
+
+  p mode_arr
+end
 
 
 
