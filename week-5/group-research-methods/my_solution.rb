@@ -51,9 +51,9 @@ def my_hash_sorting_method(hash)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# I Used the sort_by command which then implemented for both a hash and an array.
+# For Array I iterated over the elements, selected the elements and converted them to a string.
+# For the Hash, I itereated both key and value and selected only the values to sort by.
 
 =begin
 # Person 4

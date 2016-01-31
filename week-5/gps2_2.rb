@@ -90,23 +90,23 @@ print_list(g_list)
 =begin
 
 What did you learn about pseudocode from working on this challenge?
--
+- We learned that pseudocode is different for everyone. There may be similar stylistic attributes but over all not everyones pseudocode will read the same way.
 
 What are the tradeoffs of using Arrays and Hashes for this challenge?
--
+- Like the previous challenge it is stressed that Arrays and Hashes can serve different purposes. This method takes in an array of iformation and the methods call on that array to create hashes regarding their key - name of food and value - the amount needed.
 
 What does a method return?
--
+-A method returns
 
 What kind of things can you pass into methods as arguments?
--
+-We learned that you can pass a variable containing a method which was pretty neat.
 
 How can you pass information between methods?
--
+- Without the use of Classes, It was pretty neat to learn that you can pass in other methods as arguements.
 
 
 What concepts were solidified in this challenge, and what concepts are still confusing?
--
+- Defining and calling methods were cemented into my knowledge and I feel pretty confident compared to last week. I think it will get better and better as each week goes on. I think what still confuses me is iteration but it is definitely not as foggy as last week.
 
 
 =end

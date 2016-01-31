@@ -68,7 +68,7 @@ If not, what were the errors you encountered and what did you do to resolve them
   - at first we failed because we used puts instead of return. We reviceived nil and realized we cannot use puts in the method.
 
 When you refactored, did you find any existing methods in Ruby to clean up your code?
-  -
+  -I tried to find some but I was having a hard time refactoring. I actually deleted my original code while refactoring so What i have is refactored.
 
 How readable is your solution? Did you and your pair choose descriptive variable names?
   - I think our code is pretty easy to read outside of the refactored method. Yes something my pair actually helped me with, was coming up with better variable names.
