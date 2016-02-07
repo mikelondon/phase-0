@@ -5,7 +5,6 @@
 # I spent [#] hours on this challenge.
 
 # Pseudocode
-
 # Input: Credit card number 16 digit integer
 # Output: boolean - if card is valid
 # Steps:
@@ -62,11 +61,11 @@ end
 # Reflection
 
 # What was the most difficult part of this challenge for you and your pair?
-# -
+# -We felt the hardest part was the pseudocoding and we both agreed to experiment with some ideas.
 
 
 # What new methods did you find to help you when you refactored?
-# -
+# - I learned the step method was a very useful method when choosing which elements to access. This was a must as It helped us figure out the solution.
 
 
 # What concepts or learnings were you able to solidify in this challenge?
