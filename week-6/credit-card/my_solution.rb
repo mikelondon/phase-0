@@ -23,19 +23,52 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
+# class CreditCard
+
+#   def initialize(card_number)
+#     raise ArgumentError.new("Card is not the correct length. Must be 16 digits") if card_number.to_s.length != 16
+#       card_number.to_s.length
+#     @card_number = card_number.to_s
+#     check_card
+#   end
+
+#   def check_card()
+#     number_array = @card_number.split('')
+#     number_array.map! {|num| num.to_i}
+#     (0...number_array.length).step(2).each {|x| number_array[x] = number_array[x] * 2}
+#     i = 0
+#     number_array.each do |num|
+#       if num > 9
+#         num_s = num.to_s.split("")
+#         number_array[i] = num_s[0].to_i + num_s[1].to_i
+#       end
+#       i += 1
+#     end
+#     sum = number_array.inject(:+)
+
+#     return sum % 10 == 0
+#   end
+
+
+# end
+
+
+# Refactored Solution
 class CreditCard
 
   def initialize(card_number)
     raise ArgumentError.new("Card is not the correct length. Must be 16 digits") if card_number.to_s.length != 16
-      card_number.to_s.length
+
     @card_number = card_number.to_s
-    check_card
   end
 
   def check_card()
     number_array = @card_number.split('')
+
     number_array.map! {|num| num.to_i}
+
     (0...number_array.length).step(2).each {|x| number_array[x] = number_array[x] * 2}
+
     i = 0
     number_array.each do |num|
       if num > 9
@@ -43,9 +76,9 @@ class CreditCard
         number_array[i] = num_s[0].to_i + num_s[1].to_i
       end
       i += 1
-    end
-    sum = number_array.inject(:+)
+      end
 
+    sum = number_array.inject(:+)
     return sum % 10 == 0
   end
 
@@ -53,8 +86,6 @@ class CreditCard
 end
 
 # Refactored Solution
-
-
 
 
 
@@ -69,6 +100,6 @@ end
 
 
 # What concepts or learnings were you able to solidify in this challenge?
-# -
+# - I think I can do a much better job communicating. I seemed to go off on a tangent by myself. It something that I will definitely to do a better job of in the next pairing assignment.
 
 
