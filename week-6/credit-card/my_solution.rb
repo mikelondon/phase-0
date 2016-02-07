@@ -5,7 +5,6 @@
 # I spent [#] hours on this challenge.
 
 # Pseudocode
-
 # Input: Credit card number 16 digit integer
 # Output: boolean - if card is valid
 # Steps:
@@ -86,6 +85,7 @@ class CreditCard
 
 end
 
+# Refactored Solution
 
 
 
