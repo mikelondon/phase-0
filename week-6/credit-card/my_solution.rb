@@ -53,7 +53,6 @@ class CreditCard
 
 end
 
-
 # Refactored Solution
 
 
