@@ -4,6 +4,7 @@
 
 // Program Structure
 // Write your own variable and do something to it.
+/*
 var mike = "hello there mike";
 console.log(mike);
 
@@ -11,8 +12,11 @@ prompt("Tell me your favorite food.", "...");
 ""
 alert("Hey that is my favorite food too!");
 undefined
+*/
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
+
+git/*
 for (var num = 1; num <= 100; num++) {
   if (num % 3 === 0) {
     console.log('Fizz');
@@ -24,7 +28,7 @@ for (var num = 1; num <= 100; num++) {
     console.log(num);
   }
 }
-
+*/
 
 // Functions
 
