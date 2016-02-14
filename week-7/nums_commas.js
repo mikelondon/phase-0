@@ -67,3 +67,23 @@ function insertComma (number) {
 }
 
 console.log(insertComma(94242234));
+
+
+
+// Reflection
+
+/*
+What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+  - At first I approached the problem with the same mindset as approaching the problem in ruby. I kept running into the problems becasue I kept trying to translate in my head what was going on.
+
+What did you learn about iterating over arrays in JavaScript?
+  - At least for this problem I used a for loop which in Ruby I rarely used a for loop.
+
+What was different about solving this problem in JavaScript?
+  - I think just the sytax is what threw me off compared to solving the problem in Ruby. defining the variables inside a loop was different but it made sense logically.
+
+What built-in methods did you find to incorporate in your refactored solution?
+  - I did not find any built in methods I will update this after looking at the documentaion.
+
+
+*/
