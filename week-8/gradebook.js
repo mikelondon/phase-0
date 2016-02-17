@@ -15,27 +15,71 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
-
-
+//Psuedocode
+// Create a variable equal to a new object
+// Create a for loop through the two arrays assigning those values to a new object
+//
 
 
 
 // __________________________________________
 // Write your code below.
 
+// var gradebook = {};
+// for (var i = 0; i < students.length; i++) {
+//   gradebook[students[i]] = {};
+// };
 
+// var count = 0;
+// for (var x in gradebook) {
+//   gradebook[x].testScores = scores[count];
+//   count++;
+// }
 
+// gradebook.addScore = function(name, score){
+//   gradebook[name].testScores.push(score);
+// }
+// function average(array) {
+//   var sum = array.reduce(function(a,b){
+//     return a+b
+//   });
+//   var avg = sum/(array.length);
+//   return avg
 
-
-
+// }
+// gradebook.getAverage = function(name){
+//   return average(gradebook[name].testScores);
+// };
 
 
 // __________________________________________
 // Refactored Solution
 
+var gradebook = {};
+for (var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = {};
+};
 
+var count = 0;
+for (var name in gradebook) {
+  gradebook[name].testScores = scores[count];
+  count++;
+}
 
+gradebook.addScore = function(name, score){
+  gradebook[name].testScores.push(score);
+}
+function average(array) {
+  var sum = array.reduce(function(a,b){
+    return a+b
+  });
+  var avg = sum/(array.length);
+  return avg
 
+}
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+};
 
 
 
@@ -43,6 +87,12 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Reflect
 
+// What did you learn about adding functions to objects?
+    //- I found a simple way to add properties from objects to be called in the functions I write.
+// How did you iterate over nested arrays in JavaScript?
+    // - We iterated over teh nestted arrays by using two seperate objects one to iterate as a whole and one to iterate the specific parts of the iteration.
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+    // -  We did not find any methods, we were thinking of using push similar to ruby.
 
 
 
@@ -121,3 +171,4 @@ assert(
   "gradebook's getAverage should return 80 if passed 'Joseph'.",
   "9. "
 )
+
