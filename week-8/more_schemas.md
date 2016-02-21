@@ -1,10 +1,10 @@
 ##Release 2
 Below is a schema of a one to one relaitonship where the person has their gamer tags linked to their database. Not all people might have a certain account type but they are all unique names.
 
-![one_to_one][imgs/one_to_one.png]
+![one to_one] (imgs/one_to_one.png)
 
 ## Release 4
-![grocery_list][imgs/grocery_list.png]
+![grocery list] (imgs/grocery_list.png)
 
 ##Release 6: Reflect
 
