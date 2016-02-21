@@ -115,20 +115,16 @@ for (var name in votes){
 // console.log(voteCount)
 
 
-
-
-
-// __________________________________________
-// Refactored Solution
-
-
 // __________________________________________
 // Reflection
 
 
 // What did you learn about iterating over nested objects in JavaScript?
-// Were you able to find useful methods to help you with this?
+  //   - The logic is very similar to iterating in ruby however the syntax is what throws me off. But like with everything else it will all make more sense with more practice.
+//  - Were you able to find useful methods to help you with this?
+  //We used more logic than built in methods when finding an answer.
 // What concepts were solidified in the process of working through this challenge?
+  // - Good communication was key for this assignment. I think my ability to talk though my ideas was getting better than before. I still need more practice at saying what I think without caring about being wrong.
 
 
 
