@@ -35,7 +35,18 @@ var votes = {
 
 // Tally the votes in voteCount.
 var voteCount = {
-  president: {},
+  president: {
+    // "Bob": 0,
+    // "Mary": 0,
+    // "Cindy": 0,
+    // "Louise":0,
+    // "Fred": 0,
+    // "Steve": 0,
+    // "Wesley": 0,
+    // "Tracy":  0,
+    //  "Paulina": 0,
+    //  "Ivy": 0,
+  },
   vicePresident: {},
   secretary: {},
   treasurer: {}
@@ -63,12 +74,45 @@ var officers = {
 }
 
 // Pseudocode
+/*
+Check to see if the thing we are looping over is an object
+Check to see if it exists in the vote count
+  IF it does then plus assign one vote
+  ELSE create the object and give it one vote
 
+*/
 
 // __________________________________________
 // Initial Solution
 
+for (var key in votes){
+  for(var place in voteCount){
+    var person = votes[key][place]
+    voteCount[place][person] = 0
+  }
+}
 
+
+
+for (var name in votes){
+  //^ is the name of person voting
+  var obj = votes[name] //name data rep. of person
+
+  for(var office in obj){
+    //^ creates keys presidant ect
+    voteCount[office][obj[office]] += 1;
+    var person = voteCount[office][obj[office]]
+    //^is a number of votes
+    if (typeof(officers[office]) === "undefined"){
+      officers[office] = obj[office];
+    }
+    else if (voteCount[office][officers[office]] < person){
+     officers[office] = obj[office];
+    }
+  }
+}
+
+// console.log(voteCount)
 
 
 
@@ -78,14 +122,13 @@ var officers = {
 // Refactored Solution
 
 
-
-
-
-
 // __________________________________________
 // Reflection
 
 
+// What did you learn about iterating over nested objects in JavaScript?
+// Were you able to find useful methods to help you with this?
+// What concepts were solidified in the process of working through this challenge?
 
 
 
