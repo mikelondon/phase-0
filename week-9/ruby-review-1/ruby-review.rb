@@ -45,3 +45,11 @@ end
 
 # Reflection
 
+# What concepts did you review in this challenge?
+#   -We reviewed iteration and writing methods.
+
+# What is still confusing to you about Ruby?
+#   - This topic is pretty clear to me. I think it will be great to work though these onsite.
+
+# What are you going to study to get more prepared for Phase 1?
+#   - I plan to go over the codecademy tracks, + re-read some of the assignments we were required to read like rubyist, eloquent JS.
